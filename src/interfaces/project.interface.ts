@@ -31,15 +31,15 @@ type IHotel = {}
 type IEvent = {}
 
 export type IMealDetails = {
-  _id: string
-  price: number
+  id: string
+  name: string
+  price?: number
   city?: string
   createdAt?: string
   imageContentUrl?: string[]
   introduction?: string[]
   isVenue?: boolean
   location?: ILocation
-  name?: string
   textContent?: string[]
   transfer?: ITransfer[]
   updatedAt?: string

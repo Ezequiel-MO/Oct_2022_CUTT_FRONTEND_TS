@@ -1,7 +1,8 @@
 import { IMealDetails } from '../../../interfaces/project.interface'
 
 export const JulivertMeu: IMealDetails = {
-  _id: '1111',
+  id: '1111',
+  name: 'Restaurant Julivert Meu',
   city: 'Barcelona',
   createdAt: '2020-03-02T14:00:00.000Z',
   imageContentUrl: [
@@ -13,7 +14,6 @@ export const JulivertMeu: IMealDetails = {
     coordinates: [48.856614, 2.3522219],
     type: 'Point'
   },
-  name: 'Restaurant Julivert Meu',
   price: 100,
   textContent: [''],
   transfer: [
@@ -27,7 +27,8 @@ export const JulivertMeu: IMealDetails = {
 }
 
 export const CanPinxo: IMealDetails = {
-  _id: '2222',
+  id: '2222',
+  name: 'Restaurant Can Pinxo',
   city: 'Barcelona',
   createdAt: '2020-03-02T14:00:00.000Z',
   imageContentUrl: [
@@ -39,7 +40,6 @@ export const CanPinxo: IMealDetails = {
     coordinates: [48.856614, 2.3522219],
     type: 'Point'
   },
-  name: 'Restaurant Can Pinxo',
   price: 90,
   textContent: [''],
   transfer: [

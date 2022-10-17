@@ -1,4 +1,5 @@
 import { IBudgetState, IVendor } from '../context/interfaces'
+import { JulivertMeu } from './restaurant_data'
 
 const vendors: IVendor[] = [
   {
@@ -63,7 +64,7 @@ export const rows: IBudgetState[] = [
     _id: 'b3',
     day: 'Arrival Day',
     name: 'Lunch',
-    options: [vendors[3], vendors[4]]
+    options: [JulivertMeu, vendors[3]]
   },
   {
     _id: 'b4',

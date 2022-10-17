@@ -1,4 +1,4 @@
-import { IMeal } from '../../../interfaces/project.interface'
+import { IMealDetails } from '../../../interfaces/project.interface'
 
 type IVendorDetails = {
   id: string
@@ -6,7 +6,7 @@ type IVendorDetails = {
 }
 
 export type IVendor = {
-  [key: string]: IVendorDetails
+  [key: string]: IVendorDetails | IMealDetails
 }
 
 export interface IBudgetState {
